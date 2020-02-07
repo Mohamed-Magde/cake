@@ -1,0 +1,84 @@
+.collection {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: #444444;
+  background-color: #eee;
+  .container {
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    margin-top: 4em;
+
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    &-block {
+      box-shadow: 0px 2px 8px rgba(#000, 0.25);
+      background-color: #fff;
+      figcaption {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 1em;
+        padding-bottom: 2em;
+      }
+
+      .name {
+        font-size: 1.5rem;
+        position: relative;
+        margin-bottom: 0;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -0.3em;
+          left: 0;
+          height: 1px;
+          width: 4em;
+          background-color: rgba(#444444, 0.5);
+          border-radius: 20px;
+        }
+      }
+      a {
+        display: inline-block;
+        align-self: flex-start;
+        padding: 0.5em 1em;
+        margin-top: 1.5em;
+      }
+    }
+  }
+}
+
+.sale {
+  width: 100vw;
+  height: 80vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#000, 0.9),
+      rgba(#000, 0.3)
+    ),
+    url(../img/sales-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &-desc {
+    font-size: 4rem;
+    text-align: center;
+    span {
+      display: block;
+      font-size: 1.3rem;
+    }
+  }
+}
