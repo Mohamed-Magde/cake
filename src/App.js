@@ -5,6 +5,7 @@ import ProductList from "./components/product/ProductList";
 import Cart from "./components/cart/Cart";
 import Landing from "./components/layout/Landing";
 import "./assets/scss/main.css";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/shop" component={ProductList} />
           <Route path="/cart" component={Cart} />
         </Switch>
+        <Footer />
       </Fragment>
     </Router>
   );

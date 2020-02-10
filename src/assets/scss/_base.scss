@@ -27,6 +27,9 @@ a {
   display: block;
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 
 // typography
 .heading-1 {
@@ -95,5 +98,23 @@ a {
     background-color: $primary;
     border-radius: 10px;
     box-shadow: 2px 2px 6px rgba(#000, 0.25);
+  }
+}
+
+.heading-4 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 1em;
+  color: #fff;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -0.3em;
+    left: 0;
+    height: 2px;
+    width: 2em;
+    background-color: rgba($primary, 0.5);
+    border-radius: 20px;
   }
 }

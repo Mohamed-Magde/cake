@@ -1,0 +1,22 @@
+.footer {
+  height: 60vh;
+  width: 100%;
+  background-color: #444444;
+  color: #eee;
+
+  .container {
+    padding-top: 8em;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+
+    a {
+      color: darken($color: #eee, $amount: 10);
+      transition: all 0.5s;
+      &:hover {
+        color: $primary;
+        transform: scale(1.5);
+      }
+    }
+  }
+}

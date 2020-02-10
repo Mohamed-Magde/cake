@@ -4,6 +4,18 @@
   left: 0;
   width: 100vw;
   display: block;
+  z-index: 66666;
+  background-color: #fff;
+  height: 10vh;
+
+  img {
+    width: 5em;
+    display: block;
+    margin: 0;
+  }
+  i {
+    color: #444444;
+  }
 
   .container {
     display: flex;
@@ -36,7 +48,6 @@
     cursor: pointer;
 
     img {
-      width: 7em;
       display: block;
       margin: 0;
     }
@@ -58,25 +69,29 @@
       background-color: #fff;
     }
   }
-
-  .cart-link {
+  i {
+    color: #444444;
+    &:hover {
+      color: #fff;
+    }
   }
 }
 
 .scrolled {
   background-color: #fff;
   z-index: 266666;
-  box-shadow: 0 2px 8px rgba(#000, 0.5);
+  box-shadow: 0 2px 12px rgba(#000, 0.5);
   transition: all 0.8s;
   .container {
-    widows: 60%;
+    width: 70%;
+    transition: all 1s;
     img {
       width: 5em;
       display: block;
       margin: 0;
     }
-
-    a {
+    i {
+      color: #444444;
     }
   }
 }

@@ -160,3 +160,47 @@ export const blogs = [
     info: "MD Scents"
   }
 ];
+
+export const footer = [
+  {
+    id: 1,
+    title: "Corporate",
+    items: ["About Us", "Human Resources", "News", "Contact Us"]
+  },
+  {
+    id: 2,
+    title: "Our Services",
+    items: [
+      "Doping",
+      "Secure e-Trade (SeT)",
+      "Bulk Product Upload",
+      "Advertising",
+      "Sahibinden Native Ad",
+      "Mobile"
+    ]
+  },
+  {
+    id: 3,
+    title: "Stores",
+    items: [
+      "My Store",
+      "Open Store",
+      "Why Should I Open a Store?",
+      "What is the Cost of Opening a Store?",
+      "My Real Estate Agency",
+      "My Automobile Agency"
+    ]
+  },
+  {
+    id: 4,
+    title: "Privacy and Use",
+    items: [
+      "Secure e-Trade Tips",
+      "Agreements and Rules",
+      "Membership Agreement",
+      "Terms of Use",
+      "Site Map",
+      "Help and Operation Guide"
+    ]
+  }
+];

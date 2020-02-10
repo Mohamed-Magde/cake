@@ -22,14 +22,21 @@ const Navbar = () => {
 
         <ul className="nav-list">
           <li>
-            <Link className="nav-list-item">Home</Link>
+            <Link className="nav-list-item" to="/">
+              Home
+            </Link>
           </li>
 
           <li>
-            <Link className="nav-list-item cart-link">About</Link>
+            <Link className="nav-list-item shop-link" to="shop">
+              Shop
+            </Link>
           </li>
+
           <li>
-            <Link className="nav-list-item shop-link">Shop</Link>
+            <Link className="nav-list-item cart-link" to="cart">
+              <i className="fas fa-shopping-cart"></i>
+            </Link>
           </li>
         </ul>
       </div>
