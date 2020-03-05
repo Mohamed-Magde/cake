@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="nav " id="nav">
       <div className="container">
         <div className="logo">
-          <img src={logo} alt="" />
+          <img src="./img/whatsapp.png" alt="" />
         </div>
 
         <ul className="nav-list">

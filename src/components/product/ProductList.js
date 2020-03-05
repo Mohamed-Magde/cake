@@ -4,9 +4,6 @@ import Product from "./Product";
 import { ProductConsumer } from "../../context";
 
 const ProductList = () => {
-  const [state, setstate] = useState({
-    products: storeProducts
-  });
   return (
     <div className="product-list">
       <div className="product-list-title">
